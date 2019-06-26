@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cursoJavaScript</title>
+</head>
+<body>
+    <div id="app">
+        <input type="text" name="nome" />
+        <button class="botão">Adicionar</button>
+    </div>
+    <script>
+        var inputElement = document.querySelector('input[name=nome]');
+        var bntElement = document.querySelector('button.botao');
+
+        bntElement.onclick = function(){
+            var text = inputElement.value;
+
+            alert(text);
+        }
+    
+    
+    
+    
+    </script>
+    
+</body>
+</html>
